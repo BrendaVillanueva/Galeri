@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Galeri"
+             x:Class="Galeri.MainPage">
+
+    <ContentPage BackgroundColor="Yellow" x:Name="Page1" >
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Pagina 1" VerticalOptions="Center"/>
+                <Image Source="Mabel_Pines.png" WidthRequest="300" HorizontalOptions="Center" />
+                <Button Text="Like" BackgroundColor="LightSkyBlue" HorizontalOptions="Center"  Font="20" x:Name="MS" Clicked="MabelS_Clicked"/>
+                <Button Text="Deslike" BackgroundColor="LightSkyBlue" HorizontalOptions="Center" Font="20" x:Name="MN" Clicked="MabelN_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightBlue" x:Name="Page2">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Pagina 2" VerticalOptions="Center"/>
+                <Image Source="Minnie_Mouse.png" WidthRequest="300" HorizontalOptions="Center"/>
+                <Button Text="Like" BackgroundColor="LightSkyBlue" HorizontalOptions="Center"  Font="20" Clicked="Im2S_Clicked"/>
+                <Button Text="Deslike" BackgroundColor="LightSkyBlue" HorizontalOptions="Center" Font="20" Clicked="Im2N_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Coral" x:Name="Page3">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Pagina 3" VerticalOptions="Center"/>
+                <Image Source="minion.jpg" WidthRequest="400" HorizontalOptions="Center"/>
+                <Button Text="Like" BackgroundColor="LightSkyBlue" HorizontalOptions="Center"  Font="20" Clicked="Im3S_Clicked"/>
+                <Button Text="Deslike" BackgroundColor="LightSkyBlue" HorizontalOptions="Center" Font="20" Clicked="Im3N_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightPink" x:Name="Page4">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Pagina 4" VerticalOptions="Center"/>
+                <Image Source="pooh.jpg" WidthRequest="300" HorizontalOptions="Center"/>
+                <Button Text="Like" BackgroundColor="LightSkyBlue" HorizontalOptions="Center"  Font="20" Clicked="Im4S_Clicked"/>
+                <Button Text="Deslike" BackgroundColor="LightSkyBlue" HorizontalOptions="Center" Font="20" Clicked="Im4N_Clicked"/>
+
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page5">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Pagina 5" VerticalOptions="Center"/>
+                <Image Source="Tinker.png" WidthRequest="300" HorizontalOptions="Center"/>
+                <Button Text="Like" BackgroundColor="LightSkyBlue" HorizontalOptions="Center"  Font="20" Clicked="Im5S_Clicked"/>
+                <Button Text="Deslike" BackgroundColor="LightSkyBlue" HorizontalOptions="Center" Font="20" Clicked="Im5N_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Orange" x:Name="Page6">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Pagina 6" VerticalOptions="Center"/>
+                <Image Source="Dipper.png" WidthRequest="300" HorizontalOptions="Center"/>
+                <Button Text="Like" BackgroundColor="LightSkyBlue" HorizontalOptions="Center"  Font="20" Clicked="Im6S_Clicked"/>
+                <Button Text="Deslike" BackgroundColor="LightSkyBlue" HorizontalOptions="Center" Font="20" Clicked="Im6N_Clicked" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Aqua" x:Name="Page7">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Pagina 7" VerticalOptions="Center"/>
+                <Image Source="mike.jpg" WidthRequest="300" HorizontalOptions="Center"/>
+                <Button Text="Like" BackgroundColor="LightSkyBlue" HorizontalOptions="Center"  Font="20" Clicked="Im7S_Clicked"/>
+                <Button Text="Deslike" BackgroundColor="LightSkyBlue" HorizontalOptions="Center" Font="20" Clicked="Im7N_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Red" x:Name="Page8">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Pagina 8" VerticalOptions="Center"/>
+                <Image Source="goku.png" WidthRequest="300" HorizontalOptions="Center"/>
+                <Button Text="Like" BackgroundColor="LightSkyBlue" HorizontalOptions="Center"  Font="20" Clicked="Im8S_Clicked"/>
+                <Button Text="Deslike" BackgroundColor="LightSkyBlue" HorizontalOptions="Center" Font="20" Clicked="Im8N_Clicked"/>
+
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="LightGreen" x:Name="Page9">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Pagina 9" VerticalOptions="Center"/>
+                <Image Source="mike.jpg" WidthRequest="300" HorizontalOptions="Center"/>
+                <Button Text="Like" BackgroundColor="LightSkyBlue" HorizontalOptions="Center"  Font="20" Clicked="Im9S_Clicked"/>
+                <Button Text="Deslike" BackgroundColor="LightSkyBlue" HorizontalOptions="Center" Font="20" Clicked="Im9N_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Coral" x:Name="Page10">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Pagina 10" VerticalOptions="Center"/>
+                <Image Source="Dipper.png" WidthRequest="300" HorizontalOptions="Center"/>
+                <Button Text="Like" BackgroundColor="LightSkyBlue" HorizontalOptions="Center"  Font="20" Clicked="Im10S_Clicked"/>
+                <Button Text="Deslike" BackgroundColor="LightSkyBlue" HorizontalOptions="Center" Font="20" Clicked="Im10N_Clicked"/>
+                <Button Text="EVALUAR LIKES" HorizontalOptions="Center" Clicked="Evaluar_Clicked"/>
+                <Button Text="EVALUAR DESLIKES" HorizontalOptions="Center" Clicked="EvaluarDL_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+
+</CarouselPage>
